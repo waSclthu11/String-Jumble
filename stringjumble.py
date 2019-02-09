@@ -25,3 +25,11 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
+text = input(str("Please enter a string of text (the bigger the better): "))
+print('you entered "{}". Now jumble it:'.format(text))
+spaces = text.count(' ')
+print(spaces)
+words = spaces + 1
+print(words)
+strlist = text.split( )
+print(strlist)
