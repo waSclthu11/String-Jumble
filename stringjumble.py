@@ -36,7 +36,21 @@ modlist1=[]
 while (x>=0):
     modlist1.append(strlist[x])
     x=x-1
-print( ' '.join(modlist1))
+j1 =  ' '.join(modlist1)
+print(j1)
+#putting the words backwards in reverse order
+j2 =  ' '.join(j1)
+spaces2 = j2.count(' ')
+strlist2 = j2.split( )
+print (strlist2)
+y= spaces2
+modlist2=[]
+while (x>=0):
+    modlist2.append(strlist2[y])
+    y=y-1
+j2=  ''.join(modlist2)
+print(j2)
+
 
 
 
