@@ -37,7 +37,7 @@ while (x>=0): #A loops that makes a list in reverse of the origional strlist
     modlist1.append(strlist[x])
     x=x-1
 j1 =  ' '.join(modlist1) #Turns list to string and puts spaces between list elements
-print(j1)
+
 #putting the words backwards in reverse order
 j2 =  '_'.join(j1)#This sets it up so the split command will put spaces in the list
 jree =  ' '.join(j1)
@@ -49,7 +49,7 @@ while (y>=0): #reverses the strlist2 list
     modlist2.append(strlist2[y])
     y=y-1
 j2=  ''.join(modlist2) #gets rid of extra spaces and also turns the list into string
-print(j2)
+
 
 strlist3=j2.split( )
 z=spaces
@@ -59,6 +59,8 @@ while (z>=0):
     z=z-1
 j3 = (" ").join(modlist3)
 print(j3)
+print(j1)
+print(j2)
 
 
 
