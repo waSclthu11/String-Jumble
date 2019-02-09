@@ -3,7 +3,7 @@ stringjumble.py
 Author: waSclthu1
 Credit: I looked up string-related python commands and found this website: https://www.w3schools.com/python/python_ref_string.asp
 Where I found the "split" command which was super useful. I also found a useful "join" commande here: https://www.decalage.info/en/python/print_list
-
+I basically used the split command to split up string into lists, and the join command to join it back to string.
 Assignment:
 
 The purpose of this challenge is to gain proficiency with 
