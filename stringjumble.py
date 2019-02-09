@@ -2,7 +2,7 @@
 stringjumble.py
 Author: waSclthu1
 Credit: I looked up string-related python commands and found this website: https://www.w3schools.com/python/python_ref_string.asp
-And I found the "split" command which was super useful.
+Where I found the "split" command which was super useful. I also found a useful "join" commande here: https://www.decalage.info/en/python/print_list
 
 Assignment:
 
@@ -28,17 +28,15 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 text = input(str("Please enter a string of text (the bigger the better): "))
 print('you entered "{}". Now jumble it:'.format(text))
+#Putting the words in reverse order
 spaces = text.count(' ')
-
-words = spaces + 1
-print(words)
 strlist = text.split( )
-print(strlist)
-x= words-1
+x= spaces
 modlist1=[]
 while (x>=0):
     modlist1.append(strlist[x])
     x=x-1
-print(modlist1)
+print( ' '.join(modlist1))
+
 
 
