@@ -52,14 +52,14 @@ j2=  ''.join(modlist2) #gets rid of extra spaces and also turns the list into st
 print(j2)
 
 strlist3=j2.split( )
-print=strlist3
 z=spaces
 modlist3=[]
-while (z>=0): #A loops that makes a list in reverse of the origional strlist
+while (z>=0):
     modlist3.append(strlist3[z])
     z=z-1
-j3=' '.join(modlist3)
+j3 = (" ").join(modlist3)
 print(j3)
+
 
 
 
